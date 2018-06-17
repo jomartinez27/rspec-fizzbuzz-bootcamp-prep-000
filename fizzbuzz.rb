@@ -2,4 +2,5 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(num)
   return 'Fizz' if (num % 3 == 0) && (num % 5 != 0)
+  return 'Buzz' if (num % 5 == 0) && (num % 3 != 0)
 end
